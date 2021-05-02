@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "65fc8f8cd4eca9d64ef8ad7e0b3574aa",
+    "packages": [
+        {
+            "name": "jc21/clitable",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jc21/clitable.git",
+                "reference": "a9ff1fcdff131d25e90a9ae839a5805f6963b3da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jc21/clitable/zipball/a9ff1fcdff131d25e90a9ae839a5805f6963b3da",
+                "reference": "a9ff1fcdff131d25e90a9ae839a5805f6963b3da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "victorjonsson/markdowndocs": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "jc21": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-1-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jamie Curnow",
+                    "email": "jc@jc21.com"
+                }
+            ],
+            "description": "CLI Table output for PHP scripts",
+            "homepage": "https://github.com/jc21/clitable",
+            "keywords": [
+                "cli",
+                "command",
+                "line",
+                "table"
+            ],
+            "support": {
+                "issues": "https://github.com/jc21/clitable/issues",
+                "source": "https://github.com/jc21/clitable/tree/v1.2"
+            },
+            "time": "2019-04-28T00:06:48+00:00"
+        },
+        {
+            "name": "wujunze/php-cli-color",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wujunze/php-cli-color.git",
+                "reference": "3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wujunze/php-cli-color/zipball/3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1",
+                "reference": "3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "codedungeon/phpunit-result-printer": "^0.5",
+                "overtrue/phplint": "^0.2",
+                "phpunit/phpunit": "^5.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wujunze\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wujunze",
+                    "email": "itwujunze@163.com"
+                }
+            ],
+            "description": "Simple and easy to use the PHP command-line output of color",
+            "support": {
+                "issues": "https://github.com/wujunze/php-cli-color/issues",
+                "source": "https://github.com/wujunze/php-cli-color/tree/master"
+            },
+            "time": "2018-12-12T12:32:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wujunze/php-cli-color": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

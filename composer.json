@@ -1,0 +1,22 @@
+{
+    "name": "carmelosantana/tinycli",
+    "description": "A simple set of CLI tools and commonly used utilities.",
+    "version": "0.1.0-dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carmelo Santana",
+            "email": "git@carmelosantana.com"
+        }
+    ],
+    "require": {
+        "jc21/clitable": "^1.2",
+        "wujunze/php-cli-color": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "carmelosantana\\TinyCLI\\": "src/"
+        }
+    }
+}
