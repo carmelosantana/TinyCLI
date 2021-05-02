@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65fc8f8cd4eca9d64ef8ad7e0b3574aa",
+    "content-hash": "3bcefe5f1f6844be61fd6dbb2cca315e",
     "packages": [
         {
             "name": "jc21/clitable",
@@ -58,16 +58,16 @@
         },
         {
             "name": "wujunze/php-cli-color",
-            "version": "dev-master",
+            "version": "v2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wujunze/php-cli-color.git",
-                "reference": "3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1"
+                "reference": "e4bc6bf3a12e6d9eae68aa2cb87dedf9cf3814d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wujunze/php-cli-color/zipball/3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1",
-                "reference": "3ce1c3948efdd1d4a60be4b092cf0b1fec122fe1",
+                "url": "https://api.github.com/repos/wujunze/php-cli-color/zipball/e4bc6bf3a12e6d9eae68aa2cb87dedf9cf3814d1",
+                "reference": "e4bc6bf3a12e6d9eae68aa2cb87dedf9cf3814d1",
                 "shasum": ""
             },
             "require": {
@@ -78,7 +78,6 @@
                 "overtrue/phplint": "^0.2",
                 "phpunit/phpunit": "^5.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -100,15 +99,13 @@
                 "issues": "https://github.com/wujunze/php-cli-color/issues",
                 "source": "https://github.com/wujunze/php-cli-color/tree/master"
             },
-            "time": "2018-12-12T12:32:42+00:00"
+            "time": "2018-07-18T06:33:28+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wujunze/php-cli-color": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
