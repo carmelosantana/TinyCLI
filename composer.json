@@ -1,7 +1,7 @@
 {
     "name": "carmelosantana/tinycli",
     "description": "A simple set of CLI tools and commonly used utilities.",
-    "version": "0.1.0-dev",
+    "version": "dev-main",
     "type": "library",
     "license": "MIT",
     "authors": [
