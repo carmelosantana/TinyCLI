@@ -21,7 +21,7 @@ Add the following to your composer.json to include `TinyCLI` in your project.
     }
   ],
   "require": {
-    "carmelosantana/TinyCLI": "dev-main"
+    "carmelosantana/tinycli": "dev-main"
   }
 }
 ```
