@@ -6,7 +6,7 @@ A simple set of CLI tools and commonly used utilities.
 
 ## Install
 
-While under active development please include the **main** branch of `TinyCLI` from **this** repository in your project. 
+While under active development please include the **main** branch of `TinyCLI` from **this** repository in your project.
 
 > Stable releases will be made available on [Packagist](https://packagist.org/) once ready.
 
