@@ -90,7 +90,7 @@ class TinyCLI
         $out .= $progress ? ' [' : PHP_EOL;
 
         // echo if not suppressed
-        if ($echo)
+        if ($echo and defined('STDOUT'))
             fwrite(STDOUT, $out);
 
         // https://stackoverflow.com/questions/6543841/php-cli-getting-input-from-user-and-then-dumping-into-variable-possible#6543936
