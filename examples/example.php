@@ -3,7 +3,9 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPAR
 
 use carmelosantana\TinyCLI\TinyCLI;
 
+// output memory
 if (TinyCLI::isCLI())
-    TinyCLI::cli_echo_footer();
+    TinyCLI::memoryUsage();
 
-TinyCLI::cli_echo_made_with_love('NY');
+TinyCLI::madeWithLove('NY');
+
