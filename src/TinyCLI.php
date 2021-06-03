@@ -108,12 +108,12 @@ class TinyCLI
         return $out;
     }
 
-    public static function cli_debug_echo($msg = null, $args = [])
+    public static function echoDebug($msg = null, $args = [])
     {
-        self::echo($msg, array_merge(['header' => 'debug'], $args));
+        self::echo($msg, array_merge(['header' => ($args['header'] ?? 'debug')], $args));
     }
 
-    public static function cli_echo_array($schema = null, $data = null, $args = [])
+    public static function echoArray($schema = null, $data = null, $args = [])
     {
         $def = array(
             // options
@@ -184,9 +184,9 @@ class TinyCLI
         return $output;
     }
 
-    public static function cli_echo_table($schema = null, $data = null)
+    public static function table($data = [], $schema = [])
     {
-        if (!$schema or !self::isCLI())
+        if (empty($data) or !self::isCLI())
             return false;
 
         $table = new CliTable;
@@ -210,12 +210,12 @@ class TinyCLI
         return $out;
     }
 
-    public static function cli_echo_made_with_love(string $where = '', string $made_with = 'Made with ', string $emoji = '♥', bool $echo = true)
+    public static function madeWithLove(string $where = '', string $made_with = 'Made with ', string $emoji = '♥', bool $echo = true)
     {
         $where = !empty($where) ? ' in ' . $where : $where;
 
         $out = PHP_EOL;
-        $out .= self::cli_echo_array(
+        $out .= self::echoArray(
             // schema
             array(
                 'love' => array(
